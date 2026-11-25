@@ -20,7 +20,7 @@ src/
 index.php      Command-line demo
 public/        Web page: index.php (form) and style.css
 ```
-``````````
+`````````
 ## How to add a new payment method
 1. Create a class that extends `AbstractPayment` (see `PayPalPayment`).
 2. Implement `getName()` and `execute()`.

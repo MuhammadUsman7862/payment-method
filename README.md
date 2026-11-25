@@ -9,7 +9,7 @@ php -S localhost:8000 -t public    # web page with CSS
 Requires PHP 8.1+. For the web page, open http://localhost:8000 in your browser.
 
 ## Structure
-``
+```
 src/
   Contracts/   PaymentInterface
   Exceptions/  PaymentException (base), InvalidPaymentAmountException,
